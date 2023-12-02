@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Registration</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>User Registration</h1>
+    <form id="registrationForm">
+      <label for="name">First Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="name">Last Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+
+      <label for="password">Confirm Password:</label>
+      <input type="password" id="password" name="password" required>
+
+      <label for="date">Date of Birth:</label>
+      <input type="date" id="date" name="date" required>
+
+      <label for="gender">Gender:</label>
+      <select id="gender" name="gender">
+        <option value="Select gender">Select</option>
+        <option value="Female">Female</option>
+        <option value="Male">Male</option>
+        <option value="Other">Other</option>
+      </select>
+      <button type="submit">Submit</button>
+    </form>
+    <div class="container">
+      <h3>Terms and Conditions apply!</h3>
+      <label for="agreeTerms">I agree to the terms and conditions</label>
+      <input type="checkbox" id="agreeTerms" name="agreeTerms">
+
+      <div id="confirmationMessage" class="hidden">
+        <p>Thank you for registering with us!</p>
+        <p>We will get back with you as soon as we recieve your details.</p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
