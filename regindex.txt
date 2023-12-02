@@ -38,17 +38,19 @@
         <option value="Other">Other</option>
       </select>
       <button type="submit">Submit</button>
-    </form>
-    <div class="container">
-      <h3>Terms and Conditions apply!</h3>
-      <label for="agreeTerms">I agree to the terms and conditions</label>
-      <input type="checkbox" id="agreeTerms" name="agreeTerms">
 
-      <div id="confirmationMessage" class="hidden">
+      <div class="container">
+        <h3>Terms and Conditions apply!</h3>
+        <label for="agreeTerms">I agree to the terms and conditions</label>
+        <input type="checkbox" id="agreeTerms" name="agreeTerms">
+      </div>
+    </form>
+    
+ 
+    <div id="confirmationMessage" class="hidden">
         <p>Thank you for registering with us!</p>
         <p>We will get back with you as soon as we recieve your details.</p>
       </div>
-    </div>
 
     <script src="script.js"></script>
 </body>
